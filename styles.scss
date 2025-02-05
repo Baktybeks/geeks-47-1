@@ -132,10 +132,6 @@ body {
       font-size: 14px;
       line-height: 171%;
       color: #252c32;
-
-      @include laptop {
-        font-size: 30px;
-      }
     }
   }
 

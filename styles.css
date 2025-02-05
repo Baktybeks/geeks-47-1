@@ -124,11 +124,6 @@ body {
   line-height: 171%;
   color: #252c32;
 }
-@media screen and (max-width: 1440px) {
-  .header-menu-link {
-    font-size: 30px;
-  }
-}
 .header-all-icons {
   display: flex;
   align-items: center;
