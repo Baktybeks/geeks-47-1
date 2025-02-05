@@ -277,9 +277,12 @@ body {
   border-radius: 8px;
 }
 
-@media screen and (max-width: 1440px) {
-  .btn {
-    background-color: aqua;
+@media (max-width: 960px) {
+  .header-menu {
+    display: none;
+  }
+  .header-icon-gamburger {
+    display: block;
   }
 }
 

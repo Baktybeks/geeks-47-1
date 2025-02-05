@@ -310,13 +310,6 @@ body {
   }
 }
 
-@include laptop {
-  .btn {
-    background-color: aqua;
-  }
-}
-
-
 // @media (max-width: 1440px) {
 //   .container {
 //     background-color: red;
@@ -328,19 +321,16 @@ body {
 //   }
 // }
 
-// @media (max-width: 960px) {
+@media (max-width: 960px) {
 
-//   .container {
-//     background-color: red;
-//   }
-//   .header-menu {
-//     display: none;
-//   }
+  .header-menu {
+    display: none;
+  }
 
-//   .header-icon-gamburger {
-//     display: block;
-//   }
-// }
+  .header-icon-gamburger {
+    display: block;
+  }
+}
 
 // @media (max-width: 760px) {
 //   .container {
